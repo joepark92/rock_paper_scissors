@@ -9,6 +9,7 @@ while (computer_wins < 3 or player_wins < 3):
     rpk_input = input("Enter your weapon: ")
     rpk = ["hammer", "net", "katana"]
     computer_action = random.choice(rpk)
+    print("----- ROUND START -----")
     print(f"You chose {rpk_input}, computer chose {computer_action}")
     if rpk_input == computer_action:
         print(f"Both players selected {rpk_input}. It's a tie!")
